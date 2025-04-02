@@ -17,7 +17,7 @@ El objetivo es realizar un análisis exploratorio de datos metabolómicos proven
 
 ## Herramientas utilizadas
 
-- R (versión recomendada ≥ 4.2)
+- R (versión recomendada ≥ 4.2) y bioconductor
 - Packages R :
   - `SummarizedExperiment`
   - `pheatmap`
