@@ -1,1 +1,31 @@
+# Metadatos del proyecto PEC1
 
+## Origen y descripción de los datos
+
+Los datos provienen de metabolomicsWorkbench y representan metabolitos medidos mediante espectrometría de masas en dos modalidades:
+
+- `Gu_pos-metabolites_PA-WB.xlsx`: Metabolitos en modo positivo.
+- `Gu_neg-metabolites_PA-WB.xlsx`: Metabolitos en modo negativo.
+
+## Estructura de los archivos
+
+- **Metabolite Name**: Nombre del metabolito identificado.
+- **Units**: Unidades, siempre 'peak area' (eliminada durante el análisis por contener NA).
+- **Columnas restantes**: Intensidades para cada muestra individual (ej.: `a1`, `b1`, `c1`).
+
+## Tratamiento y análisis realizado
+
+- Eliminación de columnas innecesarias (`METABOLITE_ID`, `Units`).
+- Creación de objetos `SummarizedExperiment`.
+- Normalización mediante transformación `log2(x + 1)` para estabilizar varianzas.
+- Análisis exploratorio mediante PCA, heatmap y comparación de variaciones individuales.
+
+## Limitaciones del análisis
+
+- No se dispone de información adicional sobre grupos experimentales específicos.
+- Sin cuantificación del principio activo, estandarización débil.
+
+## Posibles análisis adicionales sugeridos
+
+- Incorporar análisis diferencial para identificar metabolitos específicos afectados significativamente por cada tipo de zumo.
+- Integrar anotaciones biológicas adicionales (vías metabólicas) mediante bases de datos como KEGG o HMDB.
