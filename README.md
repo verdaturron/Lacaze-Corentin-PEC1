@@ -6,10 +6,10 @@ Este repositorio contiene el trabajo realizado para la PEC1 de la asignatura An�
 
 ## Contenido
 
-- **data/** : fichiers bruts des métabolites (mode POS & NEG)
-- **R/** : scripts et objets R (`SummarizedExperiment`)
-- **report/** : rapport d’analyse au format PDF
-- **metadata.md** : description des métadonnées utilisées
+- **data/** : Archivos brutos de metabolitos provenientes de Metabolomics Workbench, estudio ST000291.
+- **R/** : scripts R (`SummarizedExperiment`)
+- **report/** : informe de análisis en formato PDF
+- **metadata.md** : descripción de los metadatos utilizados
 
 ## Objetivo
 
