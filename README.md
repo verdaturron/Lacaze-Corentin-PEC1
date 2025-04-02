@@ -7,8 +7,8 @@ Este repositorio contiene el trabajo realizado para la PEC1 de la asignatura An�
 ## Contenido
 
 - **data/** : Archivos brutos de metabolitos provenientes de Metabolomics Workbench, estudio ST000291.
-- **R/** : scripts R (`SummarizedExperiment`)
-- **report/** : informe de análisis en formato PDF
+- **Informe/** : informe de análisis en formato PDF
+- **R/** : scripts R (`SummarizedExperiment`) 
 - **metadata.md** : descripción de los metadatos utilizados
 
 ## Objetivo
