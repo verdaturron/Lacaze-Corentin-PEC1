@@ -1,23 +1,23 @@
 # Lacaze-Corentin-PEC1
 
-# Analyse de données métabolomiques
+# Análisis de datos metabolómicos
 
-Ce dépôt contient le travail réalisé pour la PEC1 de l'assignatura *Análisis de datos ómicos* (M0-157) à la UOC.
+Este repositorio contiene el trabajo realizado para la PEC1 de la asignatura Análisis de datos ómicos (M0-157) en la UOC.
 
-## Contenu
+## Contenido
 
 - **data/** : fichiers bruts des métabolites (mode POS & NEG)
 - **R/** : scripts et objets R (`SummarizedExperiment`)
 - **report/** : rapport d’analyse au format PDF
 - **metadata.md** : description des métadonnées utilisées
 
-## Objectif
+## Objetivo
 
-L’objectif est de mener une analyse exploratoire de données métabolomiques en utilisant la structure `SummarizedExperiment` de Bioconductor.
+El objetivo es realizar un análisis exploratorio de datos metabolómicos provenientes de Metabolomics Workbench, utilizando la estructura SummarizedExperiment de Bioconductor..
 
-## Outils utilisés
+## Herramientas utilizadas
 
-- R (version recommandée ≥ 4.2)
+- R (versión recomendada ≥ 4.2)
 - Packages R :
   - `SummarizedExperiment`
   - `pheatmap`
@@ -26,10 +26,10 @@ L’objectif est de mener une analyse exploratoire de données métabolomiques e
   - `ggplot2`
   - `readxl`
 
-## Auteur
+## Autor
 
 - Corentin Lacaze
 
-## Pour 
+## Para 
 
 - UOC - M0-157 Análisis de datos ómicos
